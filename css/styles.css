@@ -1,0 +1,250 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #8f8f8f;
+    padding: 0 10%;
+}
+
+/* -------------- Headings -------------- */
+
+.title-section-heading {
+    font-size: 3.4rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.features-section-headings {
+    margin-bottom: 9px;
+    font-size: 1.9rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.testimonial-headings {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-section-heading {
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-section-card-headings {
+    font-size: 1.9rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+/* ---------------- Title Section ---------------- */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 4%;
+}
+
+/* Navigation Bar */
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar.navbar-expand-lg.navbar-dark li a {
+    color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.download-buttons {
+    margin: 5% 3% 25% 0;
+}
+
+.title-photo {
+    width: 23%;
+    margin-left: 3%;
+    transform: rotate(23deg);
+    position: absolute;
+}
+
+/* ------- Features Section ------- */
+
+#features {
+    padding: 7% 5%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+
+.icons {
+    color: #F47F73;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+/* ------- Testimonials Section ------- */
+
+#testimonials {
+    text-align: center;
+    background-color: #F47F73;
+    color: #fff;
+}
+
+.testimonial-image {
+    height: 125px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* ------- Press Section --------- */
+
+#press {
+    text-align: center;
+    background-color: #F47F73;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* ----------- Pricing Section --------- */
+
+#pricing {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.margin {
+    margin-bottom: 58px;
+}
+
+/* -------- Call To Action Section --------- */
+
+#cta {
+    padding: 7% 5%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.cta-download-buttons {
+    margin: 5% .5% 2%;
+}
+
+/* ------------------------- Footer ----------------------- */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+
+/* ----------------- Media Querys -------------- */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #pricing {
+        padding: 50px;
+    }
+
+    .title-photo {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .download-buttons {
+        margin: 5% 2% 10% 2%;
+    }
+
+}
+
+@media (max-width: 1040px) {
+
+    .container-fluid {
+        padding: 3% 10% 4%;
+    }
+
+}
+
+@media (max-width: 635px) {
+    .press-img {
+        width: 25%;
+        margin: 25px 25px 40px;
+    }
+}
+
+@media (max-width: 530px) {
+    .testimonial-headings {
+        font-size: 2rem;
+    }
+
+    #features {
+        padding: 7% 13%;
+    }
+
+    .title-section-heading, 
+    .pricing-section-heading,
+    .cta-heading {
+        font-size: 2.8rem;
+    }
+}
